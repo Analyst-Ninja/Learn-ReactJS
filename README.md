@@ -2,4 +2,4 @@
 
 ### Instructor -- Hitesh Choudhary
 
-This is project based course to learn React Library
+This is project based course to learn React Library.

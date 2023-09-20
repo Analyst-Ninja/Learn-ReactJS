@@ -3,5 +3,3 @@
 ### Instructor -- Hitesh Choudhary
 
 This is project based course to learn React Library
-
-## Change to see in branch

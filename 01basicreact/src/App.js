@@ -1,8 +1,13 @@
+import Chai from "./chai";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <>
+      <Chai />
+      <h1>
+        Chai Aur React | I have learnt about the basic flow of react project
+      </h1>
+    </>
   );
 }
 

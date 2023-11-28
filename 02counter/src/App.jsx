@@ -8,12 +8,17 @@ function App() {
   // let Counter = 4
 
   const addValue = () => {
-    counter += 1
-    setCounter(counter)
+    if (counter < 20){
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+    }
   }
   const removeValue = () => {
-    counter -= 1
-    setCounter(counter)
+    if (counter > 0){
+    setCounter(counter - 1)
+    }
   }
 
 
